@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program for performing basic arithmetic operations</title>
+</head>
+<style>
+    body {
+        background-color: rgb(144, 247, 213);
+        font-size: 50px;
+        color: rgb(53, 51, 51);
+        margin: 50px auto;
+        text-align: center;
+       
+
+
+    }
+</style>
+<body>
+    <script>
+    var  x;
+    var  y;
+    var  z;
+    x = prompt("Write numberA:");
+    y = prompt("Write numberB:");
+    z = prompt("Write math operation:");
+    var rezultat_1 = parseInt(x) + parseInt(y);
+    var rezultat_2 = parseInt(x) - parseInt(y);
+    var rezultat_3 = parseInt(x) * parseInt(y);
+    var rezultat_4 = parseInt(x) / parseInt(y);
+  switch(z) {
+      case "+": 
+      document.write("The result is: " + rezultat_1);
+     break;
+     case "-": 
+      document.write("The result is: " + rezultat_2);
+     break;
+     case "*": 
+      document.write("The result is: " + rezultat_3);
+     break;
+     case "/": 
+      document.write("The result is: " + rezultat_4);
+     break;
+     default: 
+     document.write("Undefined number");
+  }
+
+
+</script>
+
+
+    
+</body>
+</html>
